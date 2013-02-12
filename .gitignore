@@ -164,4 +164,5 @@ pip-log.txt
 
 #text files
 *.txt
-
+sql_login.php
+*password*
