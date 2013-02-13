@@ -1,9 +1,9 @@
 ﻿<div id="user_head">
 <?
-if (!isset($_COOKIE["usr"]) || $_COOKIE["usr"]==""){
-	$login_message=true;
-}else{
+if (!isset($_COOKIE["name"]) || $_COOKIE["name"]==""){
 	$logged_in=false;
+}else{
+	$logged_in=true;
 }
 	
 if($logged_in){
